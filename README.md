@@ -1,2 +1,2 @@
-# plugins
-Machine Editor plugin ledger
+# Plugins
+Machine Editor plugin configurations repository
