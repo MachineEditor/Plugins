@@ -121,7 +121,7 @@
    },
    {
       "description":"Image restoration for faces using face parsing segmentation",
-      "configUrl":"PSFRGAN/config,json",
+      "configUrl":"PSFRGAN/config.json",
       "licence":"CC-NO-CU",
       "title":"PSFRGAN",
       "type":"Face image restoration",
