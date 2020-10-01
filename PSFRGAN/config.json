@@ -1,0 +1,55 @@
+{
+    "title":"PSFRGAN",
+    "formMapping":[
+       {
+          "containers":[
+             "imageList"
+          ],
+          "containerType":"face",
+          "subNav":"augmentation"
+       }
+    ],
+    "paramMapConfig":{
+       "useCurrentPath":true,
+       "inputCliParam":"--src_dir",
+       "formControls":[
+          
+       ],
+       "outputControl":{
+          "cliParam":"--results_dir",
+          "label":"Output folder",
+          "required":true,
+          "type":"browseFolder",
+          "control":{
+             
+          }
+       },
+       "requireEmptyFolder":true,
+       "submitLabel":"Enhance"
+    },
+    "processConfig":{
+       "loadNewOutputFiles":true,
+       "openOutputFolder":true,
+       "processOutput":"files",
+       "processOutputType":"face",
+       "copyDatabaseData":true,
+       "copyEmbeddedData":true,
+       "input":{
+          "landmarks":true,
+          "type":"json",
+          "fileName":false
+       },
+       "output":{
+          "requestsNextFace":true
+       },
+       "notifications":[
+          {
+             "id":"enhance",
+             "title":"Enhancing images",
+             "progressOutputParser":"tqdm"
+          }
+       ]
+    },
+    "schemaVersion":"1",
+    "scriptFilePath":"machine_enhance.py"
+ }
