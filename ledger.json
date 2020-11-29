@@ -1,12 +1,12 @@
 [
    {
       "description":"Image restoration for faces using a model for each face feature",
-      "configUrl":"",
+      "configUrl":"DFDNet/config.json",
       "licence":"CC-NO-CU",
       "title":"DFDNet",
       "type":"Face image restoration",
       "originalAuthor":"csxmli2016",
-      "environmentYmlPath":"D:\\machine-editor\\miniconda-installs\\dfdnet-test.yml",
+      "environmentYmlPath":"DFDNet/environment.yml",
       "url":"https://github.com/seranus/DFDNet",
       "additionalDependencies":[
          {
@@ -121,13 +121,13 @@
    },
    {
       "description":"Image restoration for faces using face parsing segmentation",
-      "configUrl":"",
+      "configUrl":"PSFRGAN/config.json",
       "licence":"CC-NO-CU",
       "title":"PSFRGAN",
       "type":"Face image restoration",
       "originalAuthor":"chaofengc",
       "url":"https://github.com/seranus/PSFRGAN",
-      "environmentYmlPath":"/media/user/Work/machine-editor/miniconda-installs/psfrgan-test.yml",
+      "environmentYmlPath":"PSFRGAN/environment.yml",
       "additionalDependencies":[
          {
             "downloadUrl":"https://drive.google.com/uc?export=download&id=1Uxb-nw04fyjABEaZCgeYgGrR4fIu7VUf",
@@ -145,12 +145,12 @@
    },
    {
       "description":"Video interpolation network",
-      "configUrl":"",
+      "configUrl":"RIFE/config.json",
       "licence":"MIT",
       "title":"RIFE",
       "type":"Video Interpolation",
       "originalAuthor":"hzwer",
-      "environmentYmlPath":"/media/user/Work/machine-editor/miniconda-installs/rife-test.yml",
+      "environmentYmlPath":"RIFE/environment.yml",
       "url":"https://github.com/seranus/arXiv2020-RIFE",
       "additionalDependencies":[
          {
