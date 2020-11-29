@@ -1,0 +1,16 @@
+name: null
+channels:
+  - defaults
+  - conda-forge
+  - pytorch
+dependencies:
+  - cudatoolkit=11.0
+  - pip
+  - python=3.7
+  - pytorch=1.7.0
+  - pip: 
+    - ffmpeg
+    - opencv-python
+    - tqdm
+    - sk-video
+    - moviepy

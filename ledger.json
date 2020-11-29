@@ -1,12 +1,12 @@
 [
    {
       "description":"Image restoration for faces using a model for each face feature",
-      "configUrl":"DFDNet/config.json",
+      "configUrl":"",
       "licence":"CC-NO-CU",
       "title":"DFDNet",
       "type":"Face image restoration",
       "originalAuthor":"csxmli2016",
-      "environmentYmlPath":"DFDNet/environment.yml",
+      "environmentYmlPath":"D:\\machine-editor\\miniconda-installs\\dfdnet-test.yml",
       "url":"https://github.com/seranus/DFDNet",
       "additionalDependencies":[
          {
@@ -121,13 +121,13 @@
    },
    {
       "description":"Image restoration for faces using face parsing segmentation",
-      "configUrl":"PSFRGAN/config.json",
+      "configUrl":"",
       "licence":"CC-NO-CU",
       "title":"PSFRGAN",
       "type":"Face image restoration",
       "originalAuthor":"chaofengc",
       "url":"https://github.com/seranus/PSFRGAN",
-      "environmentYmlPath":"PSFRGAN/environment.yml",
+      "environmentYmlPath":"/media/user/Work/machine-editor/miniconda-installs/psfrgan-test.yml",
       "additionalDependencies":[
          {
             "downloadUrl":"https://drive.google.com/uc?export=download&id=1Uxb-nw04fyjABEaZCgeYgGrR4fIu7VUf",
@@ -140,6 +140,28 @@
             "host":"gDrive",
             "relPath":"pretrain_models\\parse_multi_iter_90000.pth",
             "sizeMb":81
+         }
+      ]
+   },
+   {
+      "description":"Video interpolation network",
+      "configUrl":"",
+      "licence":"MIT",
+      "title":"RIFE",
+      "type":"Video Interpolation",
+      "originalAuthor":"hzwer",
+      "environmentYmlPath":"/media/user/Work/machine-editor/miniconda-installs/rife-test.yml",
+      "url":"https://github.com/seranus/arXiv2020-RIFE",
+      "additionalDependencies":[
+         {
+            "downloadUrl":"https://drive.google.com/uc?export=download&id=1zYc3PEN4t6GOUoVYJjvcXoMmM3kFDNGS",
+            "host":"gDrive",
+            "relPath":"train_log\\RIFE_trained_model_new.zip",
+            "sizeMb":37,
+            "unpackInfo":{
+               "type":"zip",
+               "keepArchive":false
+            }
          }
       ]
    }
