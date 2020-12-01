@@ -151,6 +151,7 @@
       "type":"Video Interpolation",
       "originalAuthor":"hzwer",
       "environmentYmlPath":"RIFE/environment.yml",
+      "environmentYmlPathLinux":"RIFE/environment-linux.yml",
       "url":"https://github.com/seranus/arXiv2020-RIFE",
       "additionalDependencies":[
          {
