@@ -130,7 +130,7 @@
       "environmentYmlPath":"PSFRGAN/environment.yml",
       "additionalDependencies":[
          {
-            "downloadUrl":"https://drive.google.com/uc?export=download&id=1Uxb-nw04fyjABEaZCgeYgGrR4fIu7VUf",
+            "downloadUrl":"https://drive.google.com/uc?export=download&id=1P6jZRPKPq6g2DsVJevszbM1vL5HDO1fR",
             "host":"gDrive",
             "relPath":"pretrain_models\\psfrgan_latest_net_G.pth",
             "sizeMb":176
